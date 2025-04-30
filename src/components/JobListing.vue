@@ -37,7 +37,7 @@ const truncatedDescription = computed(() => {
                 </button>
               </div>
 
-              <h3 class="text-green-500 mb-2">{{ job.salary }} / Year</h3>
+              <h3 class="text-green-500 mb-2">{{ job.salary }} / Month</h3>
 
               <div class="border border-gray-100 mb-5"></div>
 
