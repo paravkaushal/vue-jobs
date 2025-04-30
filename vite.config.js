@@ -11,15 +11,14 @@ export default defineConfig({
     vue(),
   ],
   server: {
-    base: 'https://jobs-portal-pqwp.onrender.com',
     port: 3000,
-    proxy: {
-      '/api': {
-        target: "https://json-server-xguj.onrender.com",
-        changeOrigin: true,
-        rewrite: (path) => path.replace(/^\/api/, '') 
-      }
-    }
+    // proxy: {
+    //   '/api': {
+    //     target: "https://json-server-xguj.onrender.com",
+    //     changeOrigin: true,
+    //     rewrite: (path) => path.replace(/^\/api/, '') 
+    //   }
+    // }
   },
   resolve: {
     alias: {
