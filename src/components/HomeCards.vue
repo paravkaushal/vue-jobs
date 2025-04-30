@@ -8,9 +8,9 @@ import { RouterLink } from 'vue-router';
       <div class="container-xl lg:container m-auto">
         <div class="grid grid-cols-1 md:grid-cols-2 gap-4 p-4 rounded-lg">
           <Card>
-            <h2 class="text-2xl font-bold">For Developers</h2>
+            <h2 class="text-2xl font-bold">For Job Seekers</h2>
             <p class="mt-2 mb-4">
-              Browse our Vue jobs and start your career today
+              Explore job opportunities in rural Punjab and start making a difference today.
             </p>
             <RouterLink
               to="/jobs"
@@ -22,7 +22,7 @@ import { RouterLink } from 'vue-router';
           <Card bg="bg-green-100">
             <h2 class="text-2xl font-bold">For Employers</h2>
             <p class="mt-2 mb-4">
-              List your job to find the perfect developer for the role
+              Post your job listing to connect with skilled individuals in rural Punjab.
             </p>
             <RouterLink
               to="/jobs/add"

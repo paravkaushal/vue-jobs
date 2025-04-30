@@ -78,17 +78,17 @@ const handleSubmit = async () => {
                         <label for="type" class="block text-gray-700 font-bold mb-2">Salary</label>
                         <select id="salary" v-model="form.salary" name="salary" class="border rounded w-full py-2 px-3"
                             required>
-                            <option value="Under $50K">under $50K</option>
-                            <option value="$50K - $60K">$50 - $60K</option>
-                            <option value="$60K - $70K">$60 - $70K</option>
-                            <option value="$70K - $80K">$70 - $80K</option>
-                            <option value="$80K - $90K">$80 - $90K</option>
-                            <option value="$90K - $100K">$90 - $100K</option>
-                            <option value="$100K - $125K">$100 - $125K</option>
-                            <option value="$125K - $150K">$125 - $150K</option>
-                            <option value="$150K - $175K">$150 - $175K</option>
-                            <option value="$175K - $200K">$175 - $200K</option>
-                            <option value="Over $200K">Over $200K</option>
+                            <option value="Under ₹10,000">Under ₹10,000</option>
+                            <option value="₹10,000 - ₹15,000">₹10,000 - ₹15,000</option>
+                            <option value="₹15,000 - ₹20,000">₹15,000 - ₹20,000</option>
+                            <option value="₹20,000 - ₹25,000">₹20,000 - ₹25,000</option>
+                            <option value="₹25,000 - ₹30,000">₹25,000 - ₹30,000</option>
+                            <option value="₹30,000 - ₹40,000">₹30,000 - ₹40,000</option>
+                            <option value="₹40,000 - ₹50,000">₹40,000 - ₹50,000</option>
+                            <option value="₹50,000 - ₹60,000">₹50,000 - ₹60,000</option>
+                            <option value="₹60,000 - ₹75,000">₹60,000 - ₹75,000</option>
+                            <option value="₹75,000 - ₹1,00,000">₹75,000 - ₹1,00,000</option>
+                            <option value="Over ₹1,00,000">Over ₹1,00,000</option>
                         </select>
                     </div>
 
